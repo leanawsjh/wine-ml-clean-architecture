@@ -13,5 +13,9 @@ def split_data(
         y: np.ndarray,
         test_size: float,
         random_state: int 
-        ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]
+        ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
     return train_test_split(X, y, test_size=test_size, random_state=random_state)
+
+if __name__=="__main__":
+    load_data()
+    split_data()
