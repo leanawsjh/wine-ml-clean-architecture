@@ -8,5 +8,3 @@ class TrainConfig:
     max_depth: int | None = None
 
 
-if __name__ == "__main__":
-    TrainConfig
